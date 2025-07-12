@@ -123,11 +123,11 @@ import constractor3 from '../assets/constractor3.png';
 import constractor4 from '../assets/constractor4.png';
 import constractor5 from '../assets/constractor5.png';
 
-import chaining1 from '../assets/chaining1.png';
-import chaining2 from '../assets/chaining2.png';
-import chaining3 from '../assets/chaining3.png';
-import chaining4 from '../assets/chaining4.png';
-import chaining5 from '../assets/chaining5.png';
+import Chaining1 from '../assets/Chaining1.png';
+import Chaining2 from '../assets/Chaining2.png';
+import Chaining3 from '../assets/Chaining3.png';
+import Chaining4 from '../assets/Chaining4.png';
+import Chaining5 from '../assets/Chaining5.png';
 
 import Flag1 from '../assets/Flag1.png';
 import Flag2 from '../assets/Flag2.png';
@@ -3666,7 +3666,7 @@ library.displayBooks();
                         {
                             id: 1,
                             title: "Assignment 1",
-                            screenshot: chaining1,
+                            screenshot: Chaining1,
                             code: `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -3692,7 +3692,7 @@ library.displayBooks();
                         {
                             id: 2,
                             title: "Assignment 2",
-                            screenshot: chaining2,
+                            screenshot: Chaining2,
                             code: `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -3718,7 +3718,7 @@ library.displayBooks();
                         {
                             id: 3,
                             title: "Assignment 3",
-                            screenshot: chaining3,
+                            screenshot: Chaining3,
                             code: `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -3753,7 +3753,7 @@ library.displayBooks();
                         {
                             id: 4,
                             title: "Assignment 4",
-                            screenshot: chaining4,
+                            screenshot: Chaining4,
                             code: `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -3780,7 +3780,7 @@ library.displayBooks();
                         {
                             id: 5,
                             title: "Assignment 5",
-                            screenshot: chaining5,
+                            screenshot: Chaining5,
                             code: `<!DOCTYPE html>
 <html lang="en">
 <head>

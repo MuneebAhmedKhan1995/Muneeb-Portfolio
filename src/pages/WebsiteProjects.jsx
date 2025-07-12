@@ -30,7 +30,7 @@ return (
       
       <div className="max-w-7xl mx-auto px-4 pt-24 pb-16">
         <h1 className="text-4xl md:text-6xl font-bold text-center text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 mb-16 animate-text">
-          My Projects
+          My Website
         </h1>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

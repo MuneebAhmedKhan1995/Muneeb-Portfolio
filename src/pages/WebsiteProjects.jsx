@@ -13,7 +13,7 @@ const Website = () => {
       title: "Inverter AC Website",
       description: "A smart energy solution for efficient power conversion and uninterrupted electricity supply.",
       price: "Live on Vercel",
-      link: "https://airforshare.com/",
+      link: "https://web1-smoky.vercel.app/",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwzHNFhino-N4FmDdfHOPzGr3Un2eUQb1Aqg&s"
     },
     {

@@ -76,7 +76,7 @@ const ReactProjectsPage = () => {
       title: "Movie Search Project",
       description: "A dynamic search tool with real-time filtering and results.",
       price: "Live on Vercel",
-      link: "https://11th-movie-search-app.vercel.app/",
+      link: "https://movie-coral-theta.vercel.app/",
       image: "https://user-images.githubusercontent.com/61752151/177327191-973f5b71-4f51-4494-bf45-b9602d73f3de.png"
     },
     {
@@ -120,6 +120,20 @@ const ReactProjectsPage = () => {
       price: "Live on Vercel",
       link: "https://17th-theme-switcher-app.vercel.app/",
       image: "https://i.ytimg.com/vi/WOAk6fhJETs/maxresdefault.jpg"
+    },
+    {
+      title: "RealTime Chat Project",
+      description: "A real-time chat app that enables instant messaging between users using WebSockets or Firebase.",
+      price: "Live on Vercel",
+      link: "https://chat-app-m33n.vercel.app/",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPkl67hFbiaSx_-sSVnHN5K4AA5MzQNc0ztw&s"
+    },
+    {
+      title: "Recipe Search Project ",
+      description: "A Recipe Finder app that lets users search and discover recipes based on ingredients or meal types using a dynamic API.",
+      price: "Live on Vercel",
+      link: "https://recipe-finder-tawny-pi.vercel.app/",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiNLr0UkwIUroSto0L2U0NCxkH3sqdmnWu0mQ0Z-JQkzbvuEcqkflLFKLt4ul-fHYHO8w&usqp=CAU"
     },
   ];
 

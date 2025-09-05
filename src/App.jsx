@@ -8,9 +8,12 @@ import ReactProjectsPage from "./pages/ReactProjectsPage";
 import HTMLCSSProjectsPage from './pages/HTMLCSSProjects';
 import JavaScriptProjects from './pages/JavaScriptProjects';
 import TypeScriptProjects from './pages/TypeScriptProjects';
-import Website from './pages/WebsiteProjects'
- 
-
+import Website from './pages/WebsiteProjects';
+import MERNStackProjectsPage from './pages/MERNStackProject';
+import CourseCertificatePage from './pages/CourseCertificate'; // Fixed import path
+import FrontendInternshipCertificatePage from './pages/frontendInternship';
+import BackendInternshipCertificatePage from './pages/backendInternship';
+import MERNInternshipCertificatePage from './pages/MERNInternship';
 
 function App() {
   return (
@@ -24,7 +27,12 @@ function App() {
         <Route path="/projects/html-css" element={<HTMLCSSProjectsPage />} />
         <Route path="/projects/javascript" element={<JavaScriptProjects />} />
         <Route path="/projects/typescript" element={<TypeScriptProjects />} />
-        <Route path="/projects/website" element={<Website/>} />
+        <Route path="/projects/MERNStack" element={<MERNStackProjectsPage />} />
+        <Route path="/projects/website" element={<Website />} />
+        <Route path="/certificates/frontendInternship" element={<FrontendInternshipCertificatePage />} />
+        <Route path="/certificates/backendInternship" element={<BackendInternshipCertificatePage />} />
+        <Route path="/certificates/MERNInternship" element={<MERNInternshipCertificatePage />} />
+        <Route path="/certificates/smit" element={<CourseCertificatePage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>

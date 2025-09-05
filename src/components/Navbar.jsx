@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Projects from "../pages/Projects";
+import Certificates from "../pages/Certificates";
 
 const Navbar = ({ isProjectsPage = false }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -82,6 +83,7 @@ const Navbar = ({ isProjectsPage = false }) => {
               )
             ))}
             <Projects />
+            <Certificates />
           </div>
         </div>
 
@@ -121,6 +123,9 @@ const Navbar = ({ isProjectsPage = false }) => {
             ))}
             <div className="block">
               <Projects />
+            </div>
+            <div className="block">
+              <Certificates />
             </div>
           </div>
         )}

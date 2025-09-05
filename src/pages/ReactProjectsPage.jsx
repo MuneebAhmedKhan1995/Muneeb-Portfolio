@@ -135,6 +135,14 @@ const ReactProjectsPage = () => {
       link: "https://recipe-finder-tawny-pi.vercel.app/",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiNLr0UkwIUroSto0L2U0NCxkH3sqdmnWu0mQ0Z-JQkzbvuEcqkflLFKLt4ul-fHYHO8w&usqp=CAU"
     },
+     {
+      title: "Admin Panel Project ",
+      description: "A React admin panel typically includes dashboard analytics, user/product/order management systems, CRUD operations, role-based authentication.",
+      price: "Live on Vercel",
+      link: "https://18th-admin-panel.vercel.app/",
+      image: "https://qph.cf2.quoracdn.net/main-qimg-788e4d7f7e25c19cea7a5b477c656229-pjlq"
+    }
+    
   ];
 
 return (

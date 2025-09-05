@@ -7,28 +7,28 @@ const Projects = () => {
   const buttonRef = useRef(null);
 
   const projectItems = [
-    { name: "HTML CSS", path: "/projects/html-css"},
-    { name: "JavaScript", path: "/projects/javascript" },
-    { name: "TypeScript", path: "/projects/typescript" },
-    { name: "React", path: "/projects/react"},
-    { name: "Website", path: "/projects/website"},
+    { name: "HTML CSS Projects", path: "/projects/html-css" },
+    { name: "JavaScript Assignments", path: "/projects/javascript" },
+    { name: "TypeScript Assignments", path: "/projects/typescript" },
+    { name: "React Projects", path: "/projects/react" },
+    { name: "Web Development Projects", path: "/projects/website" },
+    // { name: "MERN Stack Projects", path: "/projects/MERNStack" }
   ];
 
-
   useEffect(() => {
-  const handleClickOutside = (event) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-      if (buttonRef.current && !buttonRef.current.contains(event.target)) {
-        setIsOpen(false);
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        if (buttonRef.current && !buttonRef.current.contains(event.target)) {
+          setIsOpen(false);
+        }
       }
-    }
-  };
+    };
 
-  document.addEventListener("mousedown", handleClickOutside);
-  return () => {
-    document.removeEventListener("mousedown", handleClickOutside);
-  };
-}, []);
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="relative">
@@ -60,31 +60,15 @@ const Projects = () => {
             <div className="p-2 border-b border-gray-700/30">
               <h4 className="text-pink-300/90 font-semibold text-sm tracking-wider">MY PROJECTS</h4>
             </div>
-            <div className="divide-y divide-gray-700/30">
+            <div className="grid grid-cols-1 gap-1 p-2">
               {projectItems.map((project) => (
                 <Link
                   key={project.name}
                   to={project.path}
-                  className="flex items-center px-4 py-3 hover:bg-gray-700/40 transition-all duration-200 group/item"
+                  className="inline-block px-3 py-2 text-sm text-white/90 hover:text-pink-200 font-medium hover:bg-gray-700/40 rounded-md transition-all duration-200"
                   onClick={() => setIsOpen(false)}
                 >
-                  <span className="text-lg mr-3 opacity-80 group-hover/item:opacity-100">
-                    {project.icon}
-                  </span>
-                  <span className="text-white/90 group-hover/item:text-pink-200 font-medium">
-                    {project.name}
-                  </span>
-                  <span className="ml-auto opacity-0 group-hover/item:opacity-100 transition-opacity duration-200">
-                    <svg
-                      className="w-4 h-4 text-pink-300"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
+                  {project.name}
                 </Link>
               ))}
             </div>

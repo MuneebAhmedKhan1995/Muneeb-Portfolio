@@ -12,7 +12,7 @@ const Projects = () => {
     { name: "TypeScript Assignments", path: "/projects/typescript" },
     { name: "React Projects", path: "/projects/react" },
     { name: "Web Development Projects", path: "/projects/website" },
-    // { name: "MERN Stack Projects", path: "/projects/MERNStack" }
+    { name: "Final MERN Project", path: "/projects/finalproject" },
   ];
 
   useEffect(() => {

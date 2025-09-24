@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import FinalProjectPage from './pages/finalproject'
 import ReactProjectsPage from "./pages/ReactProjectsPage";
 import HTMLCSSProjectsPage from './pages/HTMLCSSProjects';
 import JavaScriptProjects from './pages/JavaScriptProjects';
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/projects/finalproject" element={<FinalProjectPage />} />
         <Route path="/projects/react" element={<ReactProjectsPage />} />
         <Route path="/projects/html-css" element={<HTMLCSSProjectsPage />} />
         <Route path="/projects/javascript" element={<JavaScriptProjects />} />

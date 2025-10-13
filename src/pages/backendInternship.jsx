@@ -21,7 +21,7 @@ const BackendInternshipCertificatePage = () => {
         <div className="space-y-6">
           {certificates.map((certificate, index) => (
             <div key={index} className="shadow-2xl rounded-lg overflow-hidden bg-white p-4">
-              {/* <img
+              <img
                 src={certificate}
                 alt="Muneeb Ahmed Khan Frontend Internship Certificate"
                 // className="w-full h-auto border-4 border-red-500 rounded-lg"
@@ -29,7 +29,7 @@ const BackendInternshipCertificatePage = () => {
                   console.error('❌ IMAGE FAILED - PATH WRONG');
                 }}
                 onLoad={() => console.log('✅ FINALLY LOADED!')}
-              /> */}
+              />
             </div>
           ))}
         </div>

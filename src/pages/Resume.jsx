@@ -1,7 +1,7 @@
 // src/pages/Resume.jsx
 const Resume = () => {
   const resumePages = [
-    "/images/resume/resume-page1.png",
+    "/images/resume/resume-page1.jpg",
   ];
 
   return (

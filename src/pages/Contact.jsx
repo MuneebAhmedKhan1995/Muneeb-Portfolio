@@ -195,7 +195,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-medium text-gray-300">Phone</h4>
-                      <p className="text-gray-400">+92 318 3055349</p>
+                      <p className="text-gray-400">+92 315 5497784</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -218,7 +218,7 @@ const Contact = () => {
                 <h3 className="text-2xl font-semibold mb-6 text-pink-400">Follow Me</h3>
                 <div className="flex space-x-4">
                   <motion.a
-                    href="https://github.com"
+                    href="https://github.com/MuneebAhmedKhan1995?tab=repositories"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gray-700 hover:bg-gray-600 p-4 rounded-full text-gray-300 transition-colors duration-300"
@@ -227,7 +227,7 @@ const Contact = () => {
                     <FaGithub className="text-xl" />
                   </motion.a>
                   <motion.a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/muneeb-ahmed-khan-0a3340363?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzzRCwsbSSCerNoUIY5Sq1w%3D%3D"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gray-700 hover:bg-blue-600 p-4 rounded-full text-gray-300 hover:text-white transition-colors duration-300"
@@ -235,15 +235,7 @@ const Contact = () => {
                   >
                     <FaLinkedin className="text-xl" />
                   </motion.a>
-                  <motion.a
-                    href="https://twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-gray-700 hover:bg-sky-500 p-4 rounded-full text-gray-300 hover:text-white transition-colors duration-300"
-                    whileHover={{ y: -5 }}
-                  >
-                    <FaTwitter className="text-xl" />
-                  </motion.a>
+                  
                 </div>
               </motion.div>
             </div>

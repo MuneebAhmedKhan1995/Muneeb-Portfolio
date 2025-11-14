@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { FiArrowRight, FiDownload } from "react-icons/fi";
 import SocialIcons from "../components/SocialIcons";
-import profileImage from "../assets/Muneeb University Image.jpg";
+import profileImage from "../assets/Muneeb University Image.jpeg";
 
 const Home = () => {
     return (

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FiGithub, FiLinkedin, FiTwitter, FiMail, FiCode, FiCpu, FiDatabase, FiLayers } from "react-icons/fi";
-import profileImage from "../assets/Muneeb University Image.jpg";
+import profileImage from "../assets/Muneeb University Image.jpeg";
 import { Link } from 'react-router-dom';
 
 const AboutPage = () => {

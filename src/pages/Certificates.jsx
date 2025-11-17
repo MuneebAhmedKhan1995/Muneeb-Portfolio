@@ -10,14 +10,15 @@ const Certificates = () => {
 
   const certificateItems = [
     { name: "Course Certificate", path: "/certificates/smit" },
-    { 
-      name: "Internship Certificate", 
+    {
+      name: "Internship Certificate",
       subItems: [
         { name: "Frontend Development Internship ", path: "/certificates/frontendInternship" },
         { name: "Backend Development Internship", path: "/certificates/backendInternship" },
         { name: "MERN Stack Developer Internship", path: "/certificates/MERNInternship" },
       ]
     },
+    { name: "Hackathon Certificate", path: "/certificates/hackathon" },
   ];
 
   useEffect(() => {
@@ -39,9 +40,15 @@ const Certificates = () => {
     };
   }, []);
 
+  // ✅ Auto close dropdown when any link is clicked
+  const handleLinkClick = () => {
+    setIsOpen(false);
+    setInternshipOpen(false);
+  };
+
   return (
     <div className="relative">
-      <button 
+      <button
         ref={buttonRef}
         className="flex items-center space-x-1 text-white hover:text-pink-300 font-medium transition-all duration-300 hover:scale-105"
         onClick={() => setIsOpen(!isOpen)}
@@ -60,9 +67,9 @@ const Certificates = () => {
       </button>
 
       {isOpen && (
-        <div 
+        <div
           ref={dropdownRef}
-          className="absolute left-0 mt-3 w-72 origin-top transform transition-all duration-200 ease-out"  
+          className="absolute left-0 mt-3 w-72 origin-top transform transition-all duration-200 ease-out"
           onMouseLeave={() => setIsOpen(false)}
         >
           <div className="bg-gradient-to-br from-gray-800/95 to-gray-900/95 backdrop-blur-lg rounded-xl shadow-2xl border border-gray-700/50 overflow-hidden">
@@ -70,18 +77,29 @@ const Certificates = () => {
               <h4 className="text-pink-300/90 font-semibold text-sm tracking-wider">MY CERTIFICATES</h4>
             </div>
             <div className="p-2 space-y-1">
-              {/* Regular Course Certificate link */}
+              {/* Course Certificate */}
               <Link
                 to="/certificates/smit"
                 className="block px-3 py-2 text-sm text-white/90 hover:text-pink-200 font-medium hover:bg-gray-700/40 rounded-md transition-all duration-200"
-                onClick={() => setIsOpen(false)}
+                onClick={handleLinkClick}
               >
                 Course Certificate
               </Link>
-              
+
+
+
+
+              <Link
+                to="/certificates/hackathon"
+                className="block px-3 py-2 text-sm text-white/90 hover:text-pink-200 font-medium hover:bg-gray-700/40 rounded-md transition-all duration-200"
+                onClick={handleLinkClick}
+              >
+                Hackathon Certificate
+              </Link>
+
               {/* Internship Certificate dropdown */}
               <div className="relative">
-                <div 
+                <div
                   className="flex items-center justify-between px-3 py-2 text-sm text-white/90 hover:text-pink-200 font-medium hover:bg-gray-700/40 rounded-md transition-all duration-200 cursor-pointer"
                   onClick={() => setInternshipOpen(!internshipOpen)}
                   onMouseEnter={() => setInternshipOpen(true)}
@@ -94,25 +112,21 @@ const Certificates = () => {
                     viewBox="0 0 24 24"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7-7" />
                   </svg>
                 </div>
-                
+
                 {internshipOpen && (
-                  <div 
+                  <div
                     ref={internshipRef}
-                    className="ml-0 mt-1 bg-gray-900/80 rounded-lg p-1 border border-gray-700/50 min-w-[320px]"  
-                    onMouseLeave={() => setInternshipOpen(false)}
+                    className="ml-0 mt-1 bg-gray-900/80 rounded-lg p-1 border border-gray-700/50 min-w-[320px]"
                   >
                     {certificateItems[1].subItems.map((item) => (
                       <Link
                         key={item.name}
                         to={item.path}
                         className="block px-4 py-2 text-sm text-white/90 hover:text-pink-200 font-medium hover:bg-gray-700/40 rounded transition-all duration-200 whitespace-nowrap"
-                        onClick={() => {
-                          setIsOpen(false);
-                          setInternshipOpen(false);
-                        }}
+                        onClick={handleLinkClick}
                       >
                         {item.name}
                       </Link>

@@ -15,6 +15,7 @@ import CourseCertificatePage from './pages/CourseCertificate'; // Fixed import p
 import FrontendInternshipCertificatePage from './pages/frontendInternship';
 import BackendInternshipCertificatePage from './pages/backendInternship';
 import MERNInternshipCertificatePage from './pages/MERNInternship';
+import HackathonCertificatePage from './pages/HackathonCertificate';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/certificates/backendInternship" element={<BackendInternshipCertificatePage />} />
         <Route path="/certificates/MERNInternship" element={<MERNInternshipCertificatePage />} />
         <Route path="/certificates/smit" element={<CourseCertificatePage />} />
+        <Route path="/certificates/hackathon" element={<HackathonCertificatePage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>

@@ -16,6 +16,7 @@ import FrontendInternshipCertificatePage from './pages/frontendInternship';
 import BackendInternshipCertificatePage from './pages/backendInternship';
 import MERNInternshipCertificatePage from './pages/MERNInternship';
 import HackathonCertificatePage from './pages/HackathonCertificate';
+import JavaScriptCertificatePage from './pages/JavaScriptCertificate';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/certificates/MERNInternship" element={<MERNInternshipCertificatePage />} />
         <Route path="/certificates/smit" element={<CourseCertificatePage />} />
         <Route path="/certificates/hackathon" element={<HackathonCertificatePage />} />
+        <Route path="/certificates/Cisco" element={<JavaScriptCertificatePage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>

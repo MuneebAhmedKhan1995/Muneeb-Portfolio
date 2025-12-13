@@ -8,7 +8,7 @@ const FinalProjectPage = () => {
       technologies: "React • Node.js • MongoDB • Express",
       price: "Live on Vercel",
       link: "https://mern-project-e-commerce-website-frontend.vercel.app/",
-      github: "https://github.com/MuneebAhmedKhan1995/OLX-Client-Side-Backend",
+      github: "https://github.com/MuneebAhmedKhan1995/MERN-Project-E-Commerce-Website-Backend",
       image: "https://briansolis.com/wp-content/uploads/2022/01/eCommerce-Website-Components-photo.jpg"
     },
     {

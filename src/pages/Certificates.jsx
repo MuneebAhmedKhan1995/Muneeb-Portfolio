@@ -19,6 +19,7 @@ const Certificates = () => {
       ]
     },
     { name: "Hackathon Certificate", path: "/certificates/hackathon" },
+    { name: "JavaScript Certificate", path: "/certificates/Cisco" },
   ];
 
   useEffect(() => {
@@ -95,6 +96,13 @@ const Certificates = () => {
                 onClick={handleLinkClick}
               >
                 Hackathon Certificate
+              </Link>
+              <Link
+                to="/certificates/Cisco"
+                className="block px-3 py-2 text-sm text-white/90 hover:text-pink-200 font-medium hover:bg-gray-700/40 rounded-md transition-all duration-200"
+                onClick={handleLinkClick}
+              >
+                CISCO Certificate
               </Link>
 
               {/* Internship Certificate dropdown */}

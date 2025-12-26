@@ -14,9 +14,9 @@ import MERNStackProjectsPage from './pages/MERNStackProject';
 import CourseCertificatePage from './pages/CourseCertificate'; // Fixed import path
 import FrontendInternshipCertificatePage from './pages/frontendInternship';
 import BackendInternshipCertificatePage from './pages/backendInternship';
-import MERNInternshipCertificatePage from './pages/MERNInternship';
 import HackathonCertificatePage from './pages/HackathonCertificate';
 import JavaScriptCertificatePage from './pages/JavaScriptCertificate';
+import FullStackInternshipCertificatePage from './pages/FullStackInternship'
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
         <Route path="/projects/website" element={<Website />} />
         <Route path="/certificates/frontendInternship" element={<FrontendInternshipCertificatePage />} />
         <Route path="/certificates/backendInternship" element={<BackendInternshipCertificatePage />} />
-        <Route path="/certificates/MERNInternship" element={<MERNInternshipCertificatePage />} />
+        <Route path="/certificates/FullStackInternship" element={<FullStackInternshipCertificatePage />} />
         <Route path="/certificates/smit" element={<CourseCertificatePage />} />
         <Route path="/certificates/hackathon" element={<HackathonCertificatePage />} />
         <Route path="/certificates/Cisco" element={<JavaScriptCertificatePage />} />

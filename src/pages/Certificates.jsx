@@ -15,7 +15,7 @@ const Certificates = () => {
       subItems: [
         { name: "Frontend Development Internship ", path: "/certificates/frontendInternship" },
         { name: "Backend Development Internship", path: "/certificates/backendInternship" },
-        { name: "MERN Stack Developer Internship", path: "/certificates/MERNInternship" },
+        { name: "Full Stack Developer Internship", path: "/certificates/FullStackInternship" },
       ]
     },
     { name: "Hackathon Certificate", path: "/certificates/hackathon" },

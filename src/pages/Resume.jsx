@@ -2,6 +2,7 @@
 const Resume = () => {
   const resumePages = [
     "/images/resume/resume-page1.jpg",
+    "/images/resume/resume-page2.jpg"
   ];
 
   return (

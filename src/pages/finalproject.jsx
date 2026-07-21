@@ -28,6 +28,15 @@ const FinalProjectPage = () => {
       link: "https://olx-client-side-frontend.vercel.app/",
       github: "https://github.com/MuneebAhmedKhan1995/OLX-Client-Side-Frontend",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwvdUel6vBQatcGiQo1n9XgVaxhWiIT-0fug&s"
+    },
+    {
+      title: "E-Commerce-Store Website",
+      description: "A modern e-commerce platform offering seamless online shopping experience. Includes product catalog, search & filter, cart management, secure checkout, payment integration, and user account management. Built using MERN stack with responsive design.",
+      technologies: "React • Node.js • MongoDB • Express",
+      price: "Live on Vercel",
+      link: "https://mern-project-e-commerce-store.vercel.app/",
+      github: "https://github.com/MuneebAhmedKhan1995/Israin-Software-Company-Internship_Backend",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH0OcUEij4mE71hOOjeMqilKF1WJZwPoWjx-NdyFolFJ6bzSJG5dC0tkk&s=10"
     }
   ];
 

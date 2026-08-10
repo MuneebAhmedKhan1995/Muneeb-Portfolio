@@ -18,6 +18,7 @@ import HackathonCertificatePage from './pages/HackathonCertificate';
 import CourseraCertificatePage from './pages/CourseraCertificate';
 import JavaScriptCertificatePage from './pages/JavaScriptCertificate';
 import FullStackInternshipCertificatePage from './pages/FullStackInternship'
+import ApturaInternshipCertificatePage from './pages/ApturaInternship';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="/certificates/frontendInternship" element={<FrontendInternshipCertificatePage />} />
         <Route path="/certificates/backendInternship" element={<BackendInternshipCertificatePage />} />
         <Route path="/certificates/FullStackInternship" element={<FullStackInternshipCertificatePage />} />
+        <Route path="/certificates/ApturaInternship" element={<ApturaInternshipCertificatePage />} />
         <Route path="/certificates/smit" element={<CourseCertificatePage />} />
         <Route path="/certificates/hackathon" element={<HackathonCertificatePage />} />
         <Route path="/certificates/google" element={<CourseraCertificatePage />} />

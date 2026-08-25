@@ -37,6 +37,15 @@ const FinalProjectPage = () => {
       link: "https://mern-project-e-commerce-store.vercel.app/",
       github: "https://github.com/MuneebAhmedKhan1995/Israin-Software-Company-Internship_Backend",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH0OcUEij4mE71hOOjeMqilKF1WJZwPoWjx-NdyFolFJ6bzSJG5dC0tkk&s=10"
+    },
+    {
+      title: "E-Commerce-Store Store",
+      description: "A full-stack e-commerce platform built with the MERN stack, featuring real-time product management, secure authentication, and seamless payment integration. Includes advanced search/filter, shopping cart, order tracking, and admin dashboard for complete store management",
+      technologies: "React • Node.js • MongoDB • Express",
+      price: "Live on Vercel",
+      link: "https://final-project-of-the-tech-pulse-company.vercel.app/",
+      github: "https://github.com/MuneebAhmedKhan1995/Final-Project-of-The-Tech-Pulse-Company-Internship-Backend-",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGPQs7PwaIq1YcwnPx8BGPhTbTL8uhTDHLOIWK5H82Og&s=10"
     }
   ];
 
